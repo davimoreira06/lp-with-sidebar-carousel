@@ -9,6 +9,21 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Be Vietnam Pro', sans-serif;
+    overflow-x: hidden;
+}
+
+.img-simplify {
+    width: 50vw;
+    position: absolute;
+    left: 52vw;
+    top: -10vh;
+    opacity: 0.1;
+    z-index: -1;
+    
+}
+
+.rect {
+    fill: hsl(15, 60%, 48%);
 }
 
 nav {
@@ -19,7 +34,7 @@ nav {
 
 .logo-img {
     margin-top: 3.8rem;
-    margin-left: 8vw;
+    margin-left: 11vw;
 }
 
 .menu-desktop-list {
@@ -54,15 +69,18 @@ nav {
     border-radius: 5rem;
     font-weight: 700;
     font-size: 0.85rem;
-    position: relative;
-    right: 8vw;
-    top: 1.5rem;
     transition: 0.3s;
     cursor: pointer;
 }
 
 .btn-get-started:hover {
     opacity: 0.75;
+}
+
+nav .btn-get-started {
+    position: relative;
+    right: 11vw;
+    top: 1.5rem;
 }
 
 .sidebar-icon, .close-icon {
@@ -72,5 +90,143 @@ nav {
 .hide {
     opacity: 0;
 }
+
+#first-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-section1 {
+    margin-left: 11vw;
+    margin-top: 4rem;
+}
+
+h1 {
+    font-size: 2.8rem;
+    width: 30vw;
+    color: hsl(228, 39%, 23%);
+    font-weight: 700;
+}
+
+.first-section1 p {
+    color: hsl(227, 12%, 61%);
+    font-weight: 400;
+    width: 25vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+}
+
+.img-section2 {
+    margin-right: 12vw;
+    width: 35vw;
+}
+
+#second-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+.second-section1 {
+    margin-left: 11vw;
+    margin-top: 1.8rem;
+}
+
+.second-section1 h2 {
+    font-size: 2rem;
+    color: hsl(228, 39%, 23%);
+    width: 30vw;
+    font-weight: 700;
+}
+
+.second-section1 p {
+    width: 30vw;
+    color: hsl(227, 12%, 61%);
+    font-weight: 400;
+    margin-top: 1.8rem;
+    font-size: 0.93rem;
+}
+
+.second-section2 {
+    margin-right: 13vw;
+}
+
+.manage1, .manage2, .manage3 {
+    margin-bottom: 2.2rem;
+}
+
+.manage1 p, .manage2 p, .manage3 p {
+    width: 30vw;
+    color: hsl(227, 12%, 61%);
+    font-size: 0.95rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.numbers {
+    background-color: hsl(12, 88%, 59%);
+    width: 3vw;
+    height: 1.8rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 5rem;
+    padding-top: 0.3rem;
+    position: relative;
+    right: 4.5rem;
+    top: 1.7rem;
+    font-weight: 500;
+}
+
+.second-section2 h3 {
+    color: hsl(228, 39%, 23%);
+    font-size: 0.94rem;
+}
+
+.h2-pre-carousel {
+    text-align: center;
+    font-size: 2rem;
+    color: hsl(228, 39%, 23%);
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+#carousel {
+    display: flex;
+}
+
+.people {
+    text-align: center;
+    background-color: #f6eeee;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}   
+
+.people img {
+    width: 4rem;
+    position: relative;
+    bottom: 2rem;
+}
+
+.people h3 {
+    position: relative;
+    bottom: 1rem;
+    color: hsl(228, 39%, 23%);
+    font-size: 0.94rem;
+}
+
+.people p {
+    color: hsl(227, 12%, 61%);
+    font-weight: 400;
+    font-size: 0.93rem;
+    width: 32vw;
+}
+
+
+
+
+
+
+
 
 
