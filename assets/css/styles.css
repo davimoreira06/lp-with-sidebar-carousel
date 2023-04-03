@@ -193,10 +193,12 @@ h1 {
 
 #carousel {
     display: flex;
-    width: 100vw;
-    height: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15rem;
     gap: 2rem;
-    overflow-x: auto;
+    overflow: visible;
+    width: 32vw;
 }
 
 #carousel::-webkit-scrollbar {
@@ -205,40 +207,45 @@ h1 {
 
 .people {
     text-align: center;
-    background-color: #f9f9f9;
-   
-}   
+    background-color: #f3f3f3;
+    width: 100vw;
+    padding: 2rem;
+    border-radius: 0.6rem;
+}
+
+.people:not(:first-child) {
+    display: none;
+}
 
 .people img {
     width: 4rem;
     position: relative;
-    bottom: 2rem;
-    
+    bottom: 4rem;
 }
 
 .people h3 {
     position: relative;
-    bottom: 1rem;
+    bottom: 1.5rem;
     color: hsl(228, 39%, 23%);
-    font-size: 0.94rem;
+    font-size: 1rem;
 }
 
 .people p {
     color: hsl(227, 12%, 61%);
     font-weight: 400;
-    font-size: 0.93rem;
-    width: 32vw;
-    margin-top: 0.5rem;
-}
-
-.buttons-carousel {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
+    font-size: 0.98rem;
+    width: 30vw;
     margin-top: 1rem;
 }
 
-.buttons-carousel button {
+.radio-btns-carousel {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+input {
     width: 1rem;
     height: 1rem;
     border-radius: 5rem;
@@ -248,7 +255,7 @@ h1 {
     transition: 0.3s;
 }
 
-.buttons-carousel button:hover {
+input:hover {
     background-color: hsl(12, 88%, 59%);
 }
 
