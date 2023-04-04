@@ -1,1 +1,0 @@
-new GeolocationCoordinates(".glide").mount();

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;500;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -61,7 +61,7 @@ nav {
 }
 
 .btn-get-started {
-    width: 8.5vw;
+    width: 8rem;
     height: 2.5rem;
     color: #fff;
     background-color: hsl(12, 88%, 59%);
@@ -239,5 +239,118 @@ h1 {
     margin-right: auto;
 }
 
+.btgs {
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    text-align: center;
+}
 
+.pre-footer {
+    width: 100vw;
+    height: 13rem;
+    background-color: hsl(12, 88%, 59%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pre-footer h2 {
+    color: #fff;
+    font-size: 2rem;
+    width: 25vw;
+    margin-left: 15vw;
+    
+}
+
+.pre-footer button {
+    background-color: #fff;
+    color: hsl(12, 88%, 59%);
+    margin-right: 15vw;
+}
+
+footer {
+    width: 100vw;
+    height: 13rem;
+    background-color: hsl(233, 12%, 13%);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.footer-left {
+    padding-left: 8vw;
+}
+
+.social-medias {
+    margin-top: 4.7rem;
+    
+}
+
+.social-medias img {
+    margin-right: 0.4rem;
+    cursor: pointer;
+}
+
+.social-medias img:hover {
+    color: red;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-right: 2vw;
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(240, 5%, 84%);
+    font-weight: 300;
+    font-size: 0.85rem;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: hsl(12, 88%, 59%);
+}
+
+footer li {
+    padding-bottom: 0.8rem;
+}
+
+.footer-right {
+    padding-right: 10vw;
+}
+
+#input-updates {
+    height: 2.3rem;
+    width: 12rem;
+    border: none;
+    border-radius: 1.2rem;
+    outline: 0;
+    padding-left: 0.8rem;
+}
+
+#input-updates::placeholder {
+    color: hsl(240, 0%, 53%);
+    font-size: 0.85rem;
+}
+
+#btn-go {
+    width: 3.5rem;
+    height: 2.3rem;
+    border: none;
+    background-color: hsl(12, 88%, 59%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.85rem;
+    border-radius: 5rem;
+    margin-left: 0.2rem;
+    cursor: pointer;
+}
+
+.footer-right p {
+    margin-top: 4.5rem;
+    font-size: 0.8rem;
+    color: hsl(225, 4%, 45%);
+    padding-left: 1.6rem;
+}
 
