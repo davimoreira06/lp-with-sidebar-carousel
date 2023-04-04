@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
-
     <title>Landing Page with Sidebar and Carousel</title>
 </head>
 <body>
@@ -48,7 +48,7 @@
 
     </header>
     
-    <section id="first-section">
+    <section class="first-section">
 
         <div class="first-section1">
             <h1>Bring everyone together to build better products.</h1>
@@ -62,7 +62,7 @@
         
     </section>
 
-    <section id="second-section">
+    <section class="second-section">
         <div class="second-section1">
             <h2>What's different about Manage?</h2>
             <p>Manage provides all the functionality your team needs, without the complexity.
@@ -94,62 +94,46 @@
     </section>
 
     <h2 class="h2-pre-carousel">What they've said</h2>
-    <section id="carousel">
-        <div class="people">
-            <img src="./assets/img-avatars/avatar-anisha.png">
-            <h3>Anisha Li</h3>
-            <p>"Manage has superchanged our team's workflow. The ability to maintain visibility on larger milestones
-            at all times keeps everyone motivated."</p>
-        </div>
+    <section class="carousel swiper">
+        <div class="slider swiper-wrapper">
+            <div class="people swiper-slide">
+                <img src="./assets/img-avatars/avatar-anisha.png">
+                <h3>Anisha Li</h3>
+                <p>"Manage has superchanged our team's workflow. The ability to maintain visibility on larger milestones
+                at all times keeps everyone motivated."</p>
+            </div>
 
-        <div class="people">
-            <img src="./assets/img-avatars/avatar-ali.png">
-            <h3>Ali Bravo</h3>
-            <p>"We have been able to cancel so many other subscriptions since using Manage. There is no more
-            cross-channel confusion and everyone is much more focused."</p>
-        </div>
+            <div class="people swiper-slide">
+                <img src="./assets/img-avatars/avatar-ali.png">
+                <h3>Ali Bravo</h3>
+                <p>"We have been able to cancel so many other subscriptions since using Manage. There is no more
+                cross-channel confusion and everyone is much more focused."</p>
+            </div>
 
-        <div class="people">
-            <img src="./assets/img-avatars/avatar-richard.png">
-            <h3>Richard Watts</h3>
-            <p>"Manage allows us to provide structure and process. It keeps us oorganized and focused. I can't stop
-            recommending them to everyone I tal to!"</p>
-        </div>
+            <div class="people swiper-slide">
+                <img src="./assets/img-avatars/avatar-richard.png">
+                <h3>Richard Watts</h3>
+                <p>"Manage allows us to provide structure and process. It keeps us oorganized and focused. I can't stop
+                recommending them to everyone I tal to!"</p>
+            </div>
 
-        <div class="people">
-            <img src="./assets/img-avatars/avatar-shanai.png">
-            <h3>Shanai Gough</h3>
-            <p>"Their software allows us to track, manage and collaborate on our projects form anywhere. It keeps
-            the whole team insync without being intrusive."</p>
-        </div>   
+            <div class="people swiper-slide">
+                <img src="./assets/img-avatars/avatar-shanai.png">
+                <h3>Shanai Gough</h3>
+                <p>"Their software allows us to track, manage and collaborate on our projects form anywhere. It keeps
+                the whole team insync without being intrusive."</p>
+            </div>  
+        </div> 
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
     </section>
 
-    <div class="btns-navigation">
-        <div class="radio-btns-carousel">
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
-        </div>
 
-        <div class="auto-navigation">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-        </div>
+    <script src="js/swiper-bundle.min.js"></script>
 
-        <div class="manual-navigation">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-        </div>
-    </div>
-    
-    
-
-    <script src="./assets/src/index.js"></script>
+    <script src="./assets/js/index.js"></script>
 
 </body>
 </html>

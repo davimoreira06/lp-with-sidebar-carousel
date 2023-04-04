@@ -91,7 +91,7 @@ nav .btn-get-started {
     opacity: 0;
 }
 
-#first-section {
+.first-section {
     display: flex;
     justify-content: space-between;
 }
@@ -122,7 +122,7 @@ h1 {
     width: 35vw;
 }
 
-#second-section {
+.second-section {
     display: flex;
     justify-content: space-between;
     margin-top: 6rem;
@@ -188,33 +188,32 @@ h1 {
     font-size: 2rem;
     color: hsl(228, 39%, 23%);
     margin-top: 8rem;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
 }
 
-#carousel {
+/* .carousel {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
     height: 15rem;
     gap: 2rem;
     overflow: visible;
     width: 32vw;
 }
 
-#carousel::-webkit-scrollbar {
+.carousel::-webkit-scrollbar {
     display: none;
+} */
+
+.slider {
+    display: flex;
+    gap: 2rem;
 }
 
 .people {
     text-align: center;
     background-color: #f3f3f3;
-    width: 100vw;
+    width: 32vw;
     padding: 2rem;
     border-radius: 0.6rem;
-}
-
-.people:not(:first-child) {
-    display: none;
 }
 
 .people img {
@@ -236,33 +235,9 @@ h1 {
     font-size: 0.98rem;
     width: 30vw;
     margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.radio-btns-carousel {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-    margin-top: 1.5rem;
-}
-
-input {
-    width: 1rem;
-    height: 1rem;
-    border-radius: 5rem;
-    cursor: pointer;
-    border: 0.18rem solid hsl(12, 88%, 59%);
-    background-color: transparent;
-    transition: 0.3s;
-}
-
-input:hover {
-    background-color: hsl(12, 88%, 59%);
-}
-
-
-
-
-
 
 
 
