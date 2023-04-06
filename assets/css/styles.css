@@ -209,11 +209,15 @@ h1 {
 }
 
 .swiper-button-prev:after {
-    display: none;
+    color: hsl(227, 12%, 69%);
 }
 
 .swiper-button-next:after {
-    display: none;
+    color: hsl(227, 12%, 69%);
+}
+
+:root {
+    --swiper-navigation-size: 1.8rem;
 }
 
 .people {
@@ -299,10 +303,21 @@ footer {
 .social-medias img {
     margin-right: 0.4rem;
     cursor: pointer;
+    filter: brightness(100);
 }
 
 .social-medias img:hover {
-    color: red;
+    filter: none;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    padding-right: 8vw;
+    padding-left: 8vw;
 }
 
 footer ul {
@@ -385,5 +400,184 @@ footer li {
 }
 
 @media (max-width: 990px) {
+    .first-section {
+        display: block;
+        text-align: center;
+    }
+
+    .first-section1 {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 22rem;
+    }
+
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 45vw;
+    }
+
+    .first-section1 p {
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .img-section2 {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        bottom: 29rem;
+        width: 40vw;
+    }
+
+    .second-section {
+        display: block;
+    }
+
+    .second-section1 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .second-section1 h2 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 45vw;
+    }
+
+    .second-section1 p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 45vw;
+        margin-bottom: 2.5rem;
+    }
+
+    .second-section2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .manage1 h3 {
+        position: relative;
+        bottom: 1.5rem;
+        left: 3.5rem;
+    }
+
+    .manage2 h3 {
+        position: relative;
+        bottom: 1.5rem;
+        left: 3.5rem;
+    }
+
+    .manage3 h3 {
+        position: relative;
+        bottom: 1.5rem;
+        left: 3.5rem;
+    }
+
+    .manage1 p, .manage2 p, .manage3 p {
+        margin-left: auto;
+        width: 50vw;
+        margin-right: 19vw;
+    }
+
+    .numbers {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+
+    .numbers-h3 {
+        background-color: hsl(13, 100%, 92%);
+        width: 70vw;
+        float: right;
+        height: 1.8rem;
+        border-radius: 1rem 0 0 1rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .carousel {
+        height: 20rem;
+        width: 60vw;
+    }
+
+    .people p {
+        font-size: 0.9rem;
+    }
+
+    .pre-footer {
+        display: block;
+        height: 22rem;
+        text-align: center;
+    }
+
+    .pre-footer h2 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5rem;
+        width: 40vw;
+    }
+
+    .pre-footer button {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+
+    footer {
+        display: block;
+        height: 32rem;
+    }
+
+    .footer-left {
+        position: relative;
+        top: 17rem;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .logo-footer {
+        position: relative;
+        top: 6.5rem;
+    }
+
+    .social-medias {
+        position: relative;
+        bottom: 3.5rem;
+        word-spacing: 6vw;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer ul {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    form {
+        position: relative;
+        bottom: 15rem;
+        left: 3.5vw;
+        text-align: center;
+    }
+
+    #input-updates {
+        width: 50vw;
+    }
+
+    .footer-right p {
+        position: relative;
+        top: 3.8rem;
+        left: 3.5vw;
+        text-align: center;
+    }
 
 }
