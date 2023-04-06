@@ -25,7 +25,16 @@ body {
     top: -10vh;
     opacity: 0.1;
     z-index: -1;
-    
+    object-fit: cover;
+}
+
+.img-simplify-mid {
+    width: 50vw;
+    position: absolute;
+    top: 70rem;
+    left: -30vw;
+    opacity: 0.1;
+    z-index: -1;
 }
 
 .rect {
@@ -413,6 +422,10 @@ footer li {
         top: -26vh;
     }
 
+    .img-simplify-mid {
+        opacity: 0;
+    }
+
     .menu-desktop-list {
         display: none;
     }
@@ -674,6 +687,14 @@ footer li {
         width: 70vw;
     }
 
+    .first-section1 p {
+        width: 45vw;
+    }
+
+    .second-section1 p {
+        width: 50vw;
+    }
+
     .img-section2 {
         width: 55vw;
     }
@@ -717,10 +738,26 @@ footer li {
     .carousel {
         width: 75vw;
     }
+
+    .pre-footer h2 {
+        width: 60vw;
+    }
 }
 
 @media (max-width: 420px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .img-simplify-top {
+        top: -8vh;
+    }
+
     .img-section2 {
         bottom: 26rem;
+    }
+
+    .pre-footer h2 {
+        width: 78vw;
     }
 }
